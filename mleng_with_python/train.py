@@ -21,3 +21,7 @@ def main():
     # Evaluate the model on the testing data
     accuracy = model.score(X_test, y_test)
     print(f"Accuracy: {accuracy:.2f}")
+
+
+if __name__ == "__main__":
+    main()
